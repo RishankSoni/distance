@@ -31,7 +31,7 @@ The Smart Blind Stick continuously monitors the user's path using a USB camera a
 - `python/` — Contains `main.py`, the logic hub running on the MPU (Linux)
 - `sketch/` — Contains `sketch.ino`, the real-time sensor polling code running on the MCU
 - `app.yaml` — Application configuration for the Arduino App Lab
-- `tts.ps` - Code for convert text to speech
+- `tts.py` - Code for convert text to speech
 - `.gitignore` — Standard exclusions for project builds
 
 ---
@@ -61,4 +61,4 @@ This project leverages the **Arduino App Lab** and the board’s specialized pro
 ### 2. TTS Server Setup
 1. On a host machine, run the Flask server:
    ```bash
-   python3 tts_server.py
+   python3 tts.py
