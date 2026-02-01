@@ -1,0 +1,11 @@
+name: distance
+description: Object detection with Modulino Distance sensor integration.
+ports: []
+bricks:
+  # This starts the Object Detection AI (Fixes the crash)
+  - arduino:video_object_detection: {}
+  
+  # This enables the Dashboard
+  - arduino:web_ui: {}
+
+icon: 📽️
